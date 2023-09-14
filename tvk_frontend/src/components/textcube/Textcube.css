@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+  }
+  
+  .cube {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+    transform-style: preserve-3d;
+    transition: transform 2s ease-in-out;
+    position: relative;
+  }
+  
+  .cube.hovered {
+    transform: rotateY(-60deg);
+  }
+  
+  .front,
+  .side,
+  .back{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    backface-visibility: visible;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .side {
+    background-color: #e74c3c;
+    transform: rotateY(90deg) translateZ(100px);
+  }
+
+  
+  .front {
+    transform: translateZ(100px);
+  }
+  
+  .cube:hover .front {
+    background-color: #e74c3c;
+  }
+  
+  .cube:hover .side {
+    background-color: #3498db;
+  }
+  

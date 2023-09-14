@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Preloader from './components/preloader/Preloader';
 import Navbar from './components/navbar/Navbar';
+import TextCube from './components/textcube/Textcube';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     <div>
     <Navbar/>
     <h1>Welcome to TVK</h1>
+    <TextCube/>
     </div>
   )
 }
