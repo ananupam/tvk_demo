@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    backface-visibility: visible;
+    backface-visibility: hidden;
     transition: background-color 0.3s ease-in-out;
   }
   
