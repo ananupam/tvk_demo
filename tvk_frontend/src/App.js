@@ -24,7 +24,6 @@ function App() {
   ) : (
     <div>
     <Navbar/>
-    <h1>Welcome to TVK</h1>
     <Mainpage></Mainpage>
     </div>
   )

@@ -1,0 +1,15 @@
+.main_nav {
+}
+
+.main_nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: right; 
+    align-items: center; 
+}
+
+.main_nav li {
+    margin-right: 1%;   
+}
