@@ -7,11 +7,11 @@ const Navbar = () => {
     <div>
         <div className='main_nav'>
             <ul>
-                <li>About</li>
-                <li>Newsletter</li>
-                <li>Mentorship</li>
-                <li>Testimonials</li>
-                <li>Contact</li>
+                <li>ABOUT</li>
+                <li>NEWSLETTER</li>
+                <li>MENTORSHIP</li>
+                <li>TESTIMONIALS</li>
+                <li>CONTACT</li>
             </ul>
         </div>
     </div>
