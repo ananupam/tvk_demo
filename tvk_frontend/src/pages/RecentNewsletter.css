@@ -1,0 +1,54 @@
+.infinity_scroller_layer1 {
+    background-color: pink;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(57, 56, 56);
+    box-sizing: border-box;
+    display: inline-flex;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden;
+  }
+  
+  .infinity_scroller_layer1 .statictext {
+    color: rgb(57, 56, 56);
+    font-size: 23px;
+    font-weight: 400;
+  }
+  
+  .infinity_scroller_layer1 .dynamic_content1 {
+    color: rgb(78, 86, 235);
+    white-space: nowrap; /* Prevent line breaks */
+    position: relative;
+    animation: slide linear 50s infinite; /* Increase the duration for slower horizontal scrolling */
+    display: inline-block;
+    width: max-content;
+  }
+  
+  .dynamic_content1 li {
+    color: rgb(78, 86, 235);
+    list-style: none;
+    font-size: 30px;
+    display: inline-block; /* Display list items horizontally */
+    position: relative;
+    animation: slideItem linear infinite; /* Animation for individual list items */
+  }
+  
+  @keyframes slide {
+    from {
+        left: -100%;         
+    }
+    to {
+        left:100%;
+    }
+  }
+  
+  @keyframes slideItem {
+    from {
+        left: -100%;         
+    }
+    to {
+        left:100%;
+    }
+  }
+  
